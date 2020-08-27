@@ -1,0 +1,30 @@
+19:23:02 WARN  [io.qu.ag.de.AgroalProcessor] (build-45) The Agroal dependency is present but no JDBC datasources have been defined.
+19:23:06 INFO  [io.qu.ar.pr.BeanProcessor] (build-17) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field com.code.challange.repository.AccountRepository#accountDB
+19:23:15 INFO  [or.mo.dr.cluster] (Quarkus Main Thread) Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+19:23:15 INFO  [or.mo.dr.cluster] (Quarkus Main Thread) Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+19:23:15 INFO  [or.mo.dr.connection] (cluster-rtt-ClusterId{value='5f483253e218d9167dae1595', description='null'}-localhost:27017) Opened connection [connectionId{localValue:2, serverValue:286}] to localhost:27017
+19:23:15 INFO  [or.mo.dr.connection] (cluster-rtt-ClusterId{value='5f483253e218d9167dae1596', description='null'}-localhost:27017) Opened connection [connectionId{localValue:4, serverValue:288}] to localhost:27017
+19:23:15 INFO  [or.mo.dr.connection] (cluster-ClusterId{value='5f483253e218d9167dae1595', description='null'}-localhost:27017) Opened connection [connectionId{localValue:1, serverValue:287}] to localhost:27017
+19:23:16 INFO  [or.mo.dr.cluster] (cluster-ClusterId{value='5f483253e218d9167dae1595', description='null'}-localhost:27017) Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=111915528}
+19:23:16 INFO  [or.mo.dr.connection] (cluster-ClusterId{value='5f483253e218d9167dae1596', description='null'}-localhost:27017) Opened connection [connectionId{localValue:3, serverValue:289}] to localhost:27017
+19:23:16 INFO  [or.mo.dr.cluster] (cluster-ClusterId{value='5f483253e218d9167dae1596', description='null'}-localhost:27017) Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=84600786}
+19:23:16 INFO  [io.quarkus] (Quarkus Main Thread) srv-sucursales 1.0.0-SNAPSHOT on JVM (powered by Quarkus 1.7.0.Final) started in 15.968s. Listening on: http://0.0.0.0:8082
+19:23:16 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+19:23:16 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, config-yaml, hibernate-orm, hibernate-orm-panache, mongodb-client, mongodb-panache, mutiny, narayana-jta, rest-client, resteasy, resteasy-jsonb, resteasy-mutiny, smallrye-context-propagation, smallrye-openapi, swagger-ui]
+19:24:15 INFO  [io.quarkus] (Quarkus Main Thread) srv-sucursales stopped in 0.014s
+19:30:33 WARN  [io.qu.ag.de.AgroalProcessor] (build-1) The Agroal dependency is present but no JDBC datasources have been defined.
+19:30:39 INFO  [io.qu.ar.pr.BeanProcessor] (build-37) Found unrecommended usage of private members (use package-private instead) in application beans:
+	- @Inject field com.code.challange.repository.AccountRepository#accountDB
+19:30:45 INFO  [or.mo.dr.cluster] (Quarkus Main Thread) Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+19:30:46 INFO  [or.mo.dr.cluster] (Quarkus Main Thread) Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+19:30:46 INFO  [or.mo.dr.connection] (cluster-ClusterId{value='5f4834151e1f0615d5ab2643', description='null'}-localhost:27017) Opened connection [connectionId{localValue:2, serverValue:290}] to localhost:27017
+19:30:46 INFO  [or.mo.dr.cluster] (cluster-ClusterId{value='5f4834151e1f0615d5ab2643', description='null'}-localhost:27017) Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=87765881}
+19:30:46 INFO  [or.mo.dr.connection] (cluster-rtt-ClusterId{value='5f4834151e1f0615d5ab2643', description='null'}-localhost:27017) Opened connection [connectionId{localValue:1, serverValue:291}] to localhost:27017
+19:30:46 INFO  [or.mo.dr.connection] (cluster-rtt-ClusterId{value='5f4834161e1f0615d5ab2644', description='null'}-localhost:27017) Opened connection [connectionId{localValue:4, serverValue:292}] to localhost:27017
+19:30:46 INFO  [or.mo.dr.connection] (cluster-ClusterId{value='5f4834161e1f0615d5ab2644', description='null'}-localhost:27017) Opened connection [connectionId{localValue:3, serverValue:293}] to localhost:27017
+19:30:46 INFO  [or.mo.dr.cluster] (cluster-ClusterId{value='5f4834161e1f0615d5ab2644', description='null'}-localhost:27017) Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=159518155}
+19:30:47 INFO  [io.quarkus] (Quarkus Main Thread) srv-sucursales 1.0.0-SNAPSHOT on JVM (powered by Quarkus 1.7.0.Final) started in 15.970s. Listening on: http://0.0.0.0:8082
+19:30:47 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+19:30:47 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, config-yaml, hibernate-orm, hibernate-orm-panache, mongodb-client, mongodb-panache, mutiny, narayana-jta, rest-client, resteasy, resteasy-jsonb, resteasy-mutiny, smallrye-context-propagation, smallrye-openapi, swagger-ui]
+19:32:22 INFO  [io.quarkus] (Quarkus Main Thread) srv-sucursales stopped in 0.012s
